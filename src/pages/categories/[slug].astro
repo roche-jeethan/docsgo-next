@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import information from '../../data/information.json';
+
+export function getStaticPaths() {
+  return information.map(category => ({
+    params: { slug: category.slug }
+  }));
+}
+
+const { slug } = Astro.params;
+const category = information.find(item => item.slug === slug);
+
+if (!category) {
+  throw Astro.redirect('/404');
+}
+---
+
+<Layout title={category.language}>
+  <h1 class="text-3xl font-bold mb-4">{category.icon} {category.language}</h1>
+  <p class="mb-4">{category.description}</p>
+
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    {category.tools.map(tool => (
+      <a href={tool.url} target="_blank" class="p-4 bg-white shadow-md rounded-lg hover:shadow-xl transition">
+        <div class="text-3xl">{tool.icon}</div>
+        <h3 class="text-lg font-semibold">{tool.name}</h3>
+        <p class="text-sm text-gray-600">{tool.description}</p>
+      </a>
+    ))}
+  </div>
+</Layout>

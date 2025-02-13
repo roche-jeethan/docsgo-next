@@ -1,0 +1,43 @@
+[
+    {
+      "slug": "aiml",
+      "language": "AI/ML",
+      "icon": "🤖",
+      "description": "Explore AI and Machine Learning frameworks and tools.",
+      "tools": [
+        {
+          "name": "TensorFlow",
+          "icon": "🔥",
+          "description": "An open-source machine learning framework.",
+          "url": "https://www.tensorflow.org/"
+        },
+        {
+          "name": "PyTorch",
+          "icon": "⚡",
+          "description": "Deep learning framework by Facebook.",
+          "url": "https://pytorch.org/"
+        }
+      ]
+    },
+    {
+      "slug": "ds",
+      "language": "Data Science",
+      "icon": "📊",
+      "description": "Data Science tools, libraries, and frameworks.",
+      "tools": [
+        {
+          "name": "Pandas",
+          "icon": "🐼",
+          "description": "Data manipulation and analysis library.",
+          "url": "https://pandas.pydata.org/"
+        },
+        {
+          "name": "NumPy",
+          "icon": "🔢",
+          "description": "Scientific computing with Python.",
+          "url": "https://numpy.org/"
+        }
+      ]
+    }
+  ]
+  
