@@ -1,23 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Searchbar from '../components/Searchbar.jsx';
+import SearchContainer from '../components/SearchContainer';
 import information from '../data/information.json';
 ---
 
 <Layout title="Home">
   <h1 class="text-3xl font-bold mb-4">Welcome to DocsGo</h1>
-
-  
-  <!-- Search Bar -->
-  <Searchbar onSearch={() => {}} placeholder="Search..." />
-
-  <section class="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-    {information.map(category => (
-      <a href={`/categories/${category.slug}`} class="p-4 bg-white shadow-md rounded-lg hover:shadow-xl transition">
-        <div class="text-3xl">{category.icon}</div>
-        <h2 class="text-xl font-semibold">{category.language}</h2>
-        <p class="text-sm text-gray-600">{category.description}</p>
-      </a>
-    ))}
-  </section>
+  <SearchContainer client:load data={information} />
 </Layout>
