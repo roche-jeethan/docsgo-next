@@ -16,6 +16,66 @@
           "icon": "⚡",
           "description": "Deep learning framework by Facebook.",
           "url": "https://pytorch.org/"
+        },
+        {
+          "name": "Scikit-learn",
+          "icon": "🎛️",
+          "description": "Machine learning library for Python.",
+          "url": "https://scikit-learn.org/"
+        },
+        {
+          "name": "Keras",
+          "icon": "🍫",
+          "description": "Deep learning library for Python.",
+          "url": "https://keras.io/"
+        },
+        {
+          "name": "XGBoost",
+          "icon": "🌳",
+          "description": "Scalable and accurate implementation of gradient boosting machines.",
+          "url": "https://xgboost.ai/"
+        },
+        {
+          "name": "LightGBM",
+          "icon": "💡",
+          "description": "Gradient boosting framework by Microsoft.",
+          "url": "https://lightgbm.readthedocs.io/"
+        },
+        {
+          "name": "CatBoost",
+          "icon": "🐱",
+          "description": "Gradient boosting library by Yandex.",
+          "url": "https://catboost.ai/"
+        },
+        {
+          "name": "H2O.ai",
+          "icon": "🌊",
+          "description": "Open-source AI platform.",
+          "url": "https://www.h2o.ai/"
+        },
+        {
+          "name": "MLflow",
+          "icon": "🚀",
+          "description": "An open-source platform to manage the ML lifecycle.",
+          "url": "https://mlflow.org/"
+        },
+        {
+          "name": "DVC",
+          "icon": "🦉",
+          "description": "Open-source version control system for machine learning projects.",
+          "url": "https://dvc.org/"
+        },
+        {
+          "name": "Pandas",
+          "icon": "🐼",
+          "description": "Data manipulation and analysis library.",
+          "url": "https://pandas.pydata.org/"
+        },
+        {
+          "name": "NumPy",
+          "icon": "🔢",
+          "description": "Scientific computing with Python.",
+          "url": "https://numpy.org/"
         }
       ]
     },
@@ -36,6 +96,322 @@
           "icon": "🔢",
           "description": "Scientific computing with Python.",
           "url": "https://numpy.org/"
+        },
+        {
+          "name": "SciPy",
+          "icon": "🧪",
+          "description": "Scientific computing library for Python.",
+          "url": "https://www.scipy.org/"
+        },
+        {
+          "name": "Scikit-learn",
+          "icon": "🎛️",
+          "description": "Machine learning library for Python.",
+          "url": "https://scikit-learn.org/"
+        },
+        {
+          "name": "Matplotlib",
+          "icon": "📊",
+          "description": "Data visualization library for Python.",
+          "url": "https://matplotlib.org/"
+        },
+        {
+          "name": "Seaborn",
+          "icon": "🌈",
+          "description": "Statistical data visualization.",
+          "url": "https://seaborn.pydata.org/"
+        },
+        {
+          "name": "Plotly",
+          "icon": "📈",
+          "description": "Interactive graphing library.",
+          "url": "https://plotly.com/"
+        },
+        {
+          "name": "Bokeh",
+          "icon": "📰",
+          "description": "Interactive visualization library.",
+          "url": "https://bokeh.org/"
+        },
+        {
+          "name": "TensorFlow",
+          "icon": "🔥",
+          "description": "An open-source machine learning framework.",
+          "url": "https://www.tensorflow.org/"
+        },
+        {
+          "name": "PyTorch",
+          "icon": "⚡",
+          "description": "Deep learning framework by Facebook.",
+          "url": "https://pytorch.org/"
+        },
+        {
+          "name": "Jupyter",
+          "icon": "📔",
+          "description": "Open-source web application to create and share documents.",
+          "url": "https://jupyter.org/"
+        },
+        {
+          "name": "DVC",
+          "icon": "🦉",
+          "description": "Open-source version control system for machine learning projects.",
+          "url": "https://dvc.org/"
+        },
+        {
+          "name": "MLflow",
+          "icon": "🚀",
+          "description": "An open-source platform to manage the ML lifecycle.",
+          "url": "https://mlflow.org/"
+        },
+        {
+          "name": "H2O.ai",
+          "icon": "🌊",
+          "description": "Open-source AI platform.",
+          "url": "https://www.h2o.ai/"
+        }
+      ]
+    },
+    {
+      "slug": "web",
+      "language": "Web Development",
+      "icon": "🌐",
+      "description": "Web development tools and frameworks.",
+      "tools": [
+        {
+          "name": "React",
+          "icon": "⚛️",
+          "description": "A JavaScript library for building user interfaces.",
+          "url": "https://reactjs.org/"
+        },
+        {
+          "name": "Vue",
+          "icon": "🖖",
+          "description": "The Progressive JavaScript Framework.",
+          "url": "https://vuejs.org/"
+        },
+        {
+          "name": "Angular",
+          "icon": "🅰️",
+          "description": "A platform for building mobile and desktop web applications.",
+          "url": "https://angular.io/"
+        },
+        {
+          "name": "Next.js",
+          "icon": "🚀",
+          "description": "The React Framework for Production.",
+          "url": "https://nextjs.org/"
+        },
+        {
+          "name": "Gatsby",
+          "icon": "🎩",
+          "description": "A Static Site Generator for React.",
+          "url": "https://www.gatsbyjs.com/"
+        },
+        {
+          "name": "Svelte",
+          "icon": "🎉",
+          "description": "Cybernetically enhanced web apps.",
+          "url": "https://svelte.dev/"
+        },
+        {
+          "name": "Django",
+          "icon": "🧙",
+          "description": "The Web framework for perfectionists with deadlines.",
+          "url": "https://www.djangoproject.com/"
+        },
+        {
+          "name": "Flask",
+          "icon": "💼",
+          "description": "A micro web framework for Python.",
+          "url": "https://flask.palletsprojects.com/"
+        },
+        {
+          "name": "Express",
+          "icon": "🚂",
+          "description": "Fast, unopinionated, minimalist web framework for Node.js.",
+          "url": "https://expressjs.com/"
+        },
+        {
+          "name": "Ruby on Rails",
+          "icon": "💎",
+          "description": "A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.",
+          "url": "https://rubyonrails.org/"
+        },
+        {
+          "name": "ASP.NET",
+          "icon": "🔵",
+          "description": "A free, open-source framework for building modern, cloud-based, Internet-connected applications.",
+          "url": "https://dotnet.microsoft.com/apps/aspnet"
+        },
+        {
+          "name": "Spring",
+          "icon": "🍃",
+          "description": "An application framework and inversion of control container for the Java platform.",
+          "url": "https://spring.io/"
+        },
+        {
+          "name": "Laravel",
+          "icon": "🌟",
+          "description": "The PHP Framework for Web Artisans.",
+          "url": "https://laravel.com/"
+        },
+        {
+          "name": "Phoenix",
+          "icon": "🔥",
+          "description": "A productive web framework that does not compromise speed and maintainability.",
+          "url": "https://www.phoenixframework.org/"
+        },
+        {
+          "name": "Meteor",
+          "icon": "☄️",
+          "description": "An ultra-simple, database-everywhere, data-on-the-wire, pure-Javascript web framework.",
+          "url": "https://www.meteor.com/"
+        },
+        {
+          "name": "Nuxt.js",
+          "icon": "📓",
+          "description": "The Intuitive Vue Framework.",
+          "url": "https://nuxtjs.org/"
+        },
+        {
+          "name": "Gridsome",
+          "icon": "🚀",
+          "description": "Build blazing fast websites for any CMS or data with Vue.js.",
+          "url": "https://gridsome.org/"
+        },
+        {
+          "name": "Eleventy",
+          "icon": "🕚",
+          "description": "A simpler static site generator.",
+          "url": "https://www.11ty.dev/"
+        },
+        {
+          "name": "Hugo",
+          "icon": "🦜",
+          "description": "The world's fastest framework for building websites.",
+          "url": "https://gohugo.io/"
+        },
+        {
+          "name": "Jekyll",
+          "icon": "🛠️",
+          "description": "Transform your plain text into static websites and blogs.",
+          "url": "https://jekyllrb.com/"
+        },
+        {
+          "name": "Gulp",
+          "icon": "🍺",
+          "description": "A toolkit to automate and enhance your workflow.",
+          "url": "https://gulpjs.com/"
+        },
+        {
+          "name": "Webpack",
+          "icon": "⚙️",
+          "description": "A static module bundler for modern JavaScript applications.",
+          "url": "https://webpack.js.org/"
+        },
+        {
+          "name": "Rollup",
+          "icon": "🍥",
+          "description": "A module bundler for JavaScript.",
+          "url": "https://rollupjs.org/"
+        },
+        {
+          "name": "Vite",
+          "icon": "🚀",
+          "description": "A build tool that aims to provide a faster and leaner development experience for modern web projects.",
+          "url": "https://vitejs.dev/"
+        },
+        {
+          "name": "Create React App",
+          "icon": "⚛️",
+          "description": "Set up a modern web app by running one command.",
+          "url": "https://create-react-app.dev/"
+        },
+        {
+          "name": "Next.js",
+          "icon": "🚀",
+          "description": "The React Framework for Production.",
+          "url": "https://nextjs.org/"
+        },
+        {
+          "name": "Gatsby",
+          "icon": "🎩",
+          "description": "A Static Site Generator for React.",
+          "url": "https://www.gatsbyjs.com/"
+        },
+        {
+          "name": "Svelte",
+          "icon": "🎉",
+          "description": "Cybernetically enhanced web apps.",
+          "url": "https://svelte.dev/"
+        },
+        {
+          "name": "Deno",
+          "icon": "🦕",
+          "description": "A secure runtime for JavaScript and TypeScript.",
+          "url": "https://deno.land/"
+        },
+        {
+          "name": "NestJS",
+          "icon": "🐤",
+          "description": "A progressive Node.js framework for building efficient, reliable, and scalable server-side applications.",
+          "url": "https://nestjs.com/"
+        },
+        {
+          "name": "Ruby on Rails",
+          "icon": "💎",
+          "description": "A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.",
+          "url": "https://rubyonrails.org/"
+        },
+        {
+          "name": "ASP.NET",
+          "icon": "🔵",
+          "description": "A free, open-source framework for building modern, cloud-based, Internet-connected applications.",
+          "url": "https://dotnet.microsoft.com/apps/aspnet"
+        },
+        {
+          "name": "Spring",
+          "icon": "🍃",
+          "description": "An application framework and inversion of control container for the Java platform.",
+          "url": "https://spring.io/"
+        }
+      ]
+    },
+    {
+      "slug": "mobile",
+      "language": "Mobile Development",
+      "icon": "📱",
+      "description": "Mobile development tools and frameworks.",
+      "tools": [
+        {
+          "name": "React Native",
+          "icon": "⚛️",
+          "description": "Build mobile apps with React.",
+          "url": "https://reactnative.dev/"
+        },
+        {
+          "name": "Flutter",
+          "icon": "🐦",
+          "description": "UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.",
+          "url": "https://flutter.dev/"
+        },
+        {
+          "name": "Swift",
+          "icon": "🦅",
+          "description": "Powerful and intuitive programming language for iOS, iPadOS, macOS, tvOS, and watchOS.",
+          "url": "https://developer.apple.com/swift/"
+        },
+        {
+          "name": "Kotlin",
+          "icon": "🍫",
+          "description": "Statically typed programming language for modern multiplatform applications.",
+          "url": "https://kotlinlang.org/"
+        },
+        {
+          "name": "Java",
+          "icon": "☕",
+          "description": "Class-based, object-oriented programming language.",
+          "url": "https://www.java.com/"
         }
       ]
     }
