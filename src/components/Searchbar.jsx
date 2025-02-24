@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const Searchbar = ({ placeholder = "Search...", onSearch }) => {
     const [query, setQuery] = useState('');
